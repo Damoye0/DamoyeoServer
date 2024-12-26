@@ -1,4 +1,4 @@
-package damoyeo.server;
+package damoyeo;
 
 import org.junit.jupiter.api.Test;
 import org.springframework.boot.test.context.SpringBootTest;
