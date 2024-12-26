@@ -13,4 +13,8 @@ public class CommonException extends RuntimeException {
         return this.errorCode.getMessage();
     }
 
+    public static CommonException from(ErrorCode errorCode) {
+        return new CommonException(errorCode);
+    }
+
 }
